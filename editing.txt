@@ -1,0 +1,16 @@
+sudo apt update
+sudo apt upgrade
+node -v
+npm -v
+git init
+git clone https://github.com/n/MERN_serverss.git
+cd MERN_serverss/
+sudo apt install curl software-properties-common -y
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+sudo apt install nodejs -y
+node -v
+npm -v
+sudo apt install git -y
+git --version
+
+
